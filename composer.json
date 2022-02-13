@@ -2,6 +2,7 @@
     "name": "harmakit/credit-manager",
     "description": "Management tool for credits-per-minute limited services",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Harmakit\\CreditManager\\": "src/"
