@@ -1,0 +1,20 @@
+{
+    "name": "harmakit/credit-manager",
+    "description": "Management tool for credits-per-minute limited services",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Harmakit\\CreditManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "harmakit",
+            "email": "harmakit@gmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "^1.1",
+        "psr/log": "^3.0"
+    }
+}
